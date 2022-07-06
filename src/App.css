@@ -37,8 +37,117 @@
   }
 }
 
-div {
+/* div {
   border: 1px solid grey;
   margin: 5px;
   padding: 5px;
+} */
+
+div {
+}
+
+.noAutoStyle {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+#br1 {
+  background-color: #184e77;
+  width: 40vw;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#br2 {
+  background-color: #1a759f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+}
+
+#br3 {
+  background-color: #168aad;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+}
+
+#fbath {
+  background-color: #76c893;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hbath {
+  background-color: #76c893;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+}
+
+#lr {
+  background-color: #b5e48c;
+  width: 35vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#kitchen {
+  background-color: #d9ed92;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+}
+
+#kitchenword {
+padding: 12vh;
+}
+
+#masterbedbath {
+  display: flex;
+  flex-direction: column;
+}
+#top {
+  display: flex;
+  flex-direction: row;
+}
+
+#lrkitchen {
+  display: flex;
+  flex-direction: row;
+}
+
+#os {
+  display: flex;
+  display: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+#brshbath {
+  display: flex;
+  flex-direction: row;
+  min-height: 50vh;
+}
+p {
+  margin: 0;
+}
+#oven {
+  background-color: #1e6091;
+  width: 10vw;
+  text-align: center;
+}
+
+#sink {
+  background-color: #168aad;
+  width: 15vw;
+  text-align: center;
 }

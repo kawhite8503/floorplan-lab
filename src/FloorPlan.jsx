@@ -7,13 +7,35 @@ function FloorPlan (props) {
   
   return (
     <div>
-      <Bedroom bedNum = {1}/>
-      <Kitchen />
-      <Bath size = {"Full Bath"}/>
-      <Bedroom bedNum = {2}/>
-      <LivingRoom />
-      <Bath size = {"Half Bath"}/>
-      <Bedroom bedNum = {3}/>
+      <div id="top" class="noAutoStyle">
+        <div id="masterbedbath" className="noAutoStyle">
+          <p id="br1">
+            <Bedroom bedNum = {1}/>
+          </p>
+          <p id="fbath">
+            <Bath size = {"Full Bath"}/>
+          </p>
+        </div>
+        <div id="lrkitchen" className="noAutoStyle">
+          <p id="lr">
+            <LivingRoom />
+          </p>
+          <p id="kitchen">
+            <Kitchen />
+          </p>
+        </div>
+      </div>
+      <div id="brshbath" className="noAutoStyle">
+        <p id="br2">
+          <Bedroom bedNum = {2}/>
+        </p>
+        <p id="hbath">
+          <Bath size = {"Half Bath"}/>
+        </p>
+        <p id="br3">
+          <Bedroom bedNum = {3}/>
+        </p>
+      </div>
     </div>
   );
 }

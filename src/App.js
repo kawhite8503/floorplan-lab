@@ -3,7 +3,9 @@ import FloorPlan from './FloorPlan';
 
 function App() {
   return (
-    <FloorPlan />
+    <p id='fplan'>
+      <FloorPlan />
+    </p>
   );
 }
 
